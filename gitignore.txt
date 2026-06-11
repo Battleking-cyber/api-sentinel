@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# ML models (large binary files)
+data/models/*.pkl
+data/models/*.joblib
+
+# Database (contains scan results — may have sensitive targets)
+data/*.db
+data/*.sqlite
+
+# Node
+node_modules/
+dashboard/node_modules/
+dashboard/build/
+npm-debug.log*
+
+# Scan reports (may contain sensitive data)
+*.json
+!package.json
+!package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+
+# Logs
+*.log
+logs/
